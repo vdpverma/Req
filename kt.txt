@@ -1,0 +1,23 @@
+Content API  Server - 
+
+NodeJS ( Server side scripting)
+Drupal 8 – modules and themes
+AngularJS
+
+Responsive design
+
+Patternlab
+
+Elastic search
+
+hip chart
+
+========================
+
+Drupal
+cck
+views
+menus
+Drush
+Migrtae /migrate extrs
+drupal upgrate
