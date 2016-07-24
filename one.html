@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://rawgit.com/andrewng330/PreviewImage/master/preview.image.min.js"></script>
+	
+  <script>  
+    $(function () {
+		$("input[name=file1]").previewimage({
+			div: ".preview",
+			imgwidth: 180,
+			imgheight: 120
+		});
+		$("input[name=file2]").previewimage({
+			div: ".preview2",
+			imgwidth: 90,
+			imgheight: 90
+		});
+	});
+     </script>  
+     <style>
+	 .preview > div {
+  display: inline-block;
+  text-align:center;
+}
+
+.preview2 > div {
+  display: inline-block; 
+  text-align:center;
+}</style>
+
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+Preview
+	<div class="preview"></div>
+	Preview2
+	<div class="preview2"></div>
+
+	<form action="#" method="POST" enctype="multipart/form-data">
+		<input type="file" name="file1">
+		<input type="file" name="file2">
+		<input type="submit">
+	</form>
+</body>
+</html>
